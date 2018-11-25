@@ -21,12 +21,16 @@ function ajax(method, url, data, cb) {
 //DOM Manipulation
 var $ = document.querySelectorAll;
 
-//Changing CSS classes
-//div.classList.add('___');
+//Changing Elements
+parent.appendChild(el);
+el.classList.add(className);
+
+el.parentNode.removeChild(el);
+el.classList.remove(className);
 
 //Modifying content
-//div.innerHTML = '___'
-//div.textContent = '___'
+el.innerHTML = '___';
+el.textContent = '___';
 
 //Event listeners
 var click = function (el, fn) {
@@ -39,11 +43,11 @@ click(a, function () {
 });
 
 //Event listeners with "this" keyword
-// var click = function (el, fn) {
-//     el.addEventListener('click', fn.bind(el));
-//   }
+var click = function (el, fn) {
+    el.addEventListener('click', fn.bind(el));
+  }
 
-//   var a = document.getElementById('___');
-//   click(a, function () {
-//     alert('you clicked '+this.id);
-//   });
+  var a = document.getElementById('___');
+  click(a, function () {
+    alert('you clicked '+this.id);
+  });
