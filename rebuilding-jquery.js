@@ -43,6 +43,10 @@ el.style.display = 'none';
 //Show
 el.style.display = '___';
 
+//Fade In (JS)
+el.classList.add('show');
+el.classList.remove('hide');
+
 //Event listeners
 var click = function (el, fn) {
   el.addEventListener('click', fn);

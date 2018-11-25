@@ -66,7 +66,7 @@ el.style.display = '___';
 el.classList.add('show');
 el.classList.remove('hide');
 
-//Fade In (CSS)
+/* Fade In (CSS) */
 .show {
   transition: opacity 400ms;
 }
