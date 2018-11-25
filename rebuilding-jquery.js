@@ -22,15 +22,26 @@ function ajax(method, url, data, cb) {
 var $ = document.querySelectorAll;
 
 //Changing Elements
+//Append
 parent.appendChild(el);
+
+//Add Class
 el.classList.add(className);
 
+//Remove
 el.parentNode.removeChild(el);
-el.classList.remove(className);
 
+//Remove Class
+el.classList.remove(className);
 //Modifying content
 el.innerHTML = '___';
 el.textContent = '___';
+
+//Hide
+el.style.display = 'none';
+
+//Show
+el.style.display = '___';
 
 //Event listeners
 var click = function (el, fn) {

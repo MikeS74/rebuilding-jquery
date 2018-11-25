@@ -1,6 +1,6 @@
 ## Rebuilding jQuery
 
-A collection of code snippets and helpful tips to use vanilla JavaScript and CSS animations instead of jQuery.
+A collection of code snippets and helpful tips for using vanilla JavaScript and CSS animations instead of jQuery.
 
 ---
 
@@ -37,16 +37,42 @@ var $ = document.querySelectorAll;
 ```
 Changing Elements
 ```
+//Append
 parent.appendChild(el);
+
+//Add Class
 el.classList.add(className);
 
+//Remove
 el.parentNode.removeChild(el);
+
+//Remove Class
 el.classList.remove(className);
 ```
 Modifying content
 ```
 el.innerHTML = '___';
 el.textContent = '___';
+```
+Hide, Show, Fade
+```
+//Hide
+el.style.display = 'none';
+
+//Show
+el.style.display = '___';
+
+//Fade In (JS)
+el.classList.add('show');
+el.classList.remove('hide');
+
+//Fade In (CSS)
+.show {
+  transition: opacity 400ms;
+}
+.hide {
+  opacity: 0;
+}
 ```
 Event listeners
 ```
