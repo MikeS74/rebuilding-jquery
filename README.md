@@ -4,8 +4,9 @@ A collection of code snippets and helpful tips to use vanilla JavaScript and CSS
 
 ---
 
-- __[microjs.com](http://microjs.com/)__ - Micro JS libraries
-- __[youmightnotneedjquery.com](http://youmightnotneedjquery.com/)__ - Lots of helpful jQuery snippet replacements (Set to IE 10)
+- __[microjs.com](http://microjs.com/)__ - Micro JS libraries like AJAX and JSON
+- __[youmightnotneedjquery.com](http://youmightnotneedjquery.com/)__ - Lots of helpful jQuery code snippet replacements (Set to IE 10)
+- __[animate.css](https://daneden.github.io/animate.css/)__ - Simple yet effective CSS animations
 
 ---
 
