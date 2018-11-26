@@ -3,11 +3,10 @@
 A collection of code snippets and helpful tips for using vanilla JavaScript and CSS animations instead of jQuery.
 
 ---
-
 - __[microjs.com](http://microjs.com/)__ - Micro JS libraries like AJAX and JSON
 - __[youmightnotneedjquery.com](http://youmightnotneedjquery.com/)__ - Lots of helpful jQuery code snippet replacements (Set to IE 10)
 - __[animate.css](https://daneden.github.io/animate.css/)__ - Simple yet effective CSS animations
-
+- __[greensock.com](https://greensock.com/)__ - Tween style JavaScript animation library
 ---
 
 ## Code
