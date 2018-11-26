@@ -73,6 +73,10 @@ el.classList.remove('hide');
   opacity: 0;
 }
 ```
+Recommended GreenSock CDN
+```
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+```
 Event listeners
 ```
 var click = function (el, fn) {
